@@ -29,11 +29,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Content\Icons\KommandoEngine.ico">
-      <Filter>Resources\Icons</Filter>
-    </Image>
-  </ItemGroup>
-  <ItemGroup>
     <ResourceCompile Include="Game.rc">
       <Filter>Resources</Filter>
     </ResourceCompile>
@@ -42,5 +37,10 @@
     <ClCompile Include="Source\BlankGame.cpp">
       <Filter>Source\Private</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Content\Icons\PlainEngine.ico">
+      <Filter>Resources\Icons</Filter>
+    </Image>
   </ItemGroup>
 </Project>

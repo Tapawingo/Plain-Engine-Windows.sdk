@@ -1,1 +1,2 @@
-# KommandoEngine
+# Plain Engine (Windows sdk)
+This is a windows sdk implementation of the Plain Engine, a simple hackable C++ game engine. This project is in a very early state and is merely here for others wishing to hack away.

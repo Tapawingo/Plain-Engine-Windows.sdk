@@ -62,7 +62,7 @@
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <PrecompiledHeader>Create</PrecompiledHeader>
       <PrecompiledHeaderFile>BlankGame.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\Users\Eirik\source\repos\KommandoEngine\Plain\Source;C:\Users\Eirik\source\repos\KommandoEngine\Game\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Eirik\source\repos\PlainEngine\Plain\Source;C:\Users\Eirik\source\repos\PlainEngine\Game\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -85,7 +85,7 @@
       <PrecompiledHeaderFile>BlankGame.h</PrecompiledHeaderFile>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
-      <AdditionalIncludeDirectories>C:\Users\Eirik\source\repos\KommandoEngine\Plain\Source;C:\Users\Eirik\source\repos\KommandoEngine\Game\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Eirik\source\repos\PlainEngine\Plain\Source;C:\Users\Eirik\source\repos\PlainEngine\Game\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -109,12 +109,12 @@
     <ResourceCompile Include="Game.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Content\Icons\KommandoEngine.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Plain\Plain.vcxproj">
       <Project>{1a17a4d8-1e10-4187-9a8b-66efd993d29d}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Content\Icons\PlainEngine.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

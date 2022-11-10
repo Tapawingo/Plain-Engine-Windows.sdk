@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BlankGame.h">
+      <Filter>Source\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{0ce35a78-885a-410e-a7ba-718edcaf2af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Private">
+      <UniqueIdentifier>{ee9e3215-a05d-4685-ad36-b04c5a9708d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{584c9390-f15f-4f7e-a291-7a9701407628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Icons">
+      <UniqueIdentifier>{d6fa0134-a601-4aa8-9ca7-c409678123fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\pch">
+      <UniqueIdentifier>{43b2e724-b3fd-4ad8-9f53-a5a6af275471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Public">
+      <UniqueIdentifier>{11094fff-e4fa-4f1a-be6c-5c87684eae67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Content\Icons\KommandoEngine.ico">
+      <Filter>Resources\Icons</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\BlankGame.cpp">
+      <Filter>Source\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
